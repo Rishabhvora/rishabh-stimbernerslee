@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding-top:800px;
+}
+#Welcome{
+    position:absolute;
+    overflow:hidden;
+    height: 800px;
+    width:100%;
+    display:table;
+    color:aqua;
+    opacity: 1;
+    background: linear-gradient(#954ecc 0%,#18f1f5 100%);
+    z-index:9;
+    text-align:center;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+}
+.menu{
+    list-style: none;
+    position:absolute;
+    top:10px;
+    right:25px;
+    z-index:10 ;
+    cursor:pointer;
+
+
+}
+.link{
+    padding-left:10px ;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    float:left;
+}
+.link:hover{
+    font-size:25px;
+    color: pink;
+    text-decoration:underline ;
+    font-weight: bold;
+
+}
+#Biography{
+margin-top:0px ;
+padding:0px;
+border-top:0px;
+text-align:center;
+}
